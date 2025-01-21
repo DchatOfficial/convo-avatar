@@ -1,0 +1,557 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <title> Convo Avatar Generator </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/uikit.css">
+</head>
+
+<body class="uk-background-dark uk-height-expand">
+
+    <div>
+        <div class="uk-inline uk-child-width-1-1 uk-background-neutral uk-position-fixed uk-rounded" 
+            style="width: 180px; height: 300px;" >
+            <avatar bottom  style="position: absolute; width: 180px; height: 300px;"></avatar>
+            <avatar top     style="position: absolute; width: 180px; height: 300px;"></avatar>
+            <avatar face    style="position: absolute; width: 180px; height: 300px;"></avatar>
+            <avatar left-h  style="position: absolute; width: 180px; height: 300px;"></avatar>
+            <avatar right-h style="position: absolute; width: 180px; height: 300px;"></avatar>
+            <avatar hair    style="position: absolute; width: 180px; height: 300px;"></avatar>
+            <avatar eyes    style="position: absolute; width: 180px; height: 300px;"></avatar>
+        </div>
+    </div>
+
+    <div class="uk-flex uk-flex-right uk-flex-wrap uk-padding-small uk-gap-small">
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-0" name="bottom" checked>
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-1" name="bottom">
+            <avatar name="bottom-1"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-2" name="bottom">
+            <avatar name="bottom-2"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-3" name="bottom">
+            <avatar name="bottom-3"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-4" name="bottom">
+            <avatar name="bottom-4"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-5" name="bottom">
+            <avatar name="bottom-5"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-6" name="bottom">
+            <avatar name="bottom-6"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-7" name="bottom">
+            <avatar name="bottom-7"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-8" name="bottom">
+            <avatar name="bottom-8"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-9" name="bottom">
+            <avatar name="bottom-9"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-11" name="bottom">
+            <avatar name="bottom-11" style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-bottom hidden value="bottom-12" name="bottom">
+            <avatar name="bottom-12" style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+    </div>
+
+    <div class="uk-flex uk-flex-right uk-flex-wrap uk-gap-small uk-padding-small">
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-0" name="top" checked>
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-1" name="top">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-1"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-2" name="top">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-2"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-3" name="top">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-3"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-4" name="top">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-4"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-5" name="top">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-5"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-6" name="top">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-6"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-7" name="top">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-7"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-8" name="top">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-8"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-9" name="top">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-9"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-10" name="top">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-10"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-top hidden value="top-11" name="top">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-11"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+    </div>
+
+    <div class="uk-flex uk-flex-right uk-flex-wrap uk-gap-small uk-padding-small">
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-0" name="face" checked>
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-1" name="face">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-1"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-2" name="face">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-2"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-3" name="face">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-3"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-4" name="face">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-4"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-5" name="face">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-5"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-6" name="face">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-6"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-7" name="face">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-7"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-8" name="face">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-8"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-9" name="face">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-9"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-10" name="face">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-10"   style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-face hidden value="face-11" name="face">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-11"   style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+    </div>
+
+    <div class="uk-flex uk-flex-right uk-flex-wrap uk-gap-small uk-padding-small">
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-0" name="eyes" checked>
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-1" name="eyes">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-1"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-2" name="eyes">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-2"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-3" name="eyes">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-3"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-4" name="eyes">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-4"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-5" name="eyes">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-5"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-6" name="eyes">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-6"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-7" name="eyes">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-7"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-8" name="eyes">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-8"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-9" name="eyes">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-9"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-10" name="eyes">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-10"   style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-eyes hidden value="eyes-11" name="eyes">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-11"   style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+    </div>
+
+    <div class="uk-flex uk-flex-right uk-flex-wrap uk-gap-small uk-padding-small">
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-0" name="hair" checked>
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"   style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-1" name="hair">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-1"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-2" name="hair">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-2"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-3" name="hair">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-3"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-4" name="hair">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-4"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-5" name="hair">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-5"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-6" name="hair">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-6"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-7" name="hair">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-7"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-8" name="hair">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-8"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-9" name="hair">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-9"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-10" name="hair">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-10"   style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+        <label style="width: 80px; height: 120px; border-radius: 10px;">
+            <input type="radio" avatar-hair hidden value="hair-11" name="hair">
+            <avatar name="bottom-0"  style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="top-0"     style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="face-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="hair-11"   style="position: absolute; width: 80px; height: 120px;"></avatar>
+            <avatar name="eyes-0"    style="position: absolute; width: 80px; height: 120px;"></avatar>
+        </label>
+
+    </div>
+
+    <style>
+        label:has(input[type="radio"]:checked) {
+            background-color: rgba( from var(--primary) r g b / 10% );
+            border: 1px solid var(--primary);
+        }
+        label:has(input[type="radio"]) {
+            background-color: rgba( from var(--neutral) r g b / 0% );
+            border: 1px solid var(--neutral);
+        }
+    </style>
+
+    <link rel="stylesheet" href="/assets/css/right-h.css">
+    <link rel="stylesheet" href="/assets/css/left-h.css">
+    <link rel="stylesheet" href="/assets/css/bottom.css">
+    <link rel="stylesheet" href="/assets/css/eyes.css">
+    <link rel="stylesheet" href="/assets/css/face.css">
+    <link rel="stylesheet" href="/assets/css/hair.css">
+    <link rel="stylesheet" href="/assets/css/top.css">
+
+</body>
+
+</html>
